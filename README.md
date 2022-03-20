@@ -43,3 +43,27 @@ POST https://andorrayoga.com/api/v1/notes
 
 GET https://andorrayoga.com/api/v1/notes
 
+## Events
+
+Your components may react to the following events:
+
+- lesson.created
+- lesson.selected
+- lesson.viewed
+- lesson.list.viewed
+
+- session.started
+- session.paused
+- session.completed
+- session.stopped
+
+- lesson.notes.created
+- lesson.notes.viewed
+
+- account.login
+
+- pass.purchased
+- pass.list.viewed
+- pass.viewed
+- pass.redeemed
+
