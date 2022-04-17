@@ -38,7 +38,7 @@ const Section1 = () => {
             Next.js & Material-UI
           </H4>
           <H1 color="secondary.main" fontSize="40px" mb={2} fontWeight="900">
-            React Ecommerce Template
+            Zen Yoga - Ser Zen
           </H1>
           <Paragraph color="grey.700" maxWidth="400px" mx="auto" mb={4}>
             SEO friendly Material-UI Next.js multipurpose ecommerce template.

@@ -9,7 +9,7 @@ import React, { Fragment, useCallback, useState } from "react";
 const AppLayout = ({
   children,
   navbar,
-  title = "React Next.js Ecommerce Template",
+  title = "Zen Yoga - Ser Zen",
 }) => {
   const [isFixed, setIsFixed] = useState(false);
   const toggleIsFixed = useCallback((fixed) => {
