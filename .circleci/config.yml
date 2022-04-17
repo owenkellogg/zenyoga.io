@@ -41,7 +41,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Build docker image
-          command: docker build -t stevenzeiler/zenyoga.io . 
+          command: docker build -t stevenzeiler/zenyoga.io:$CIRCLE_BRANCH . 
       - run:
           name: Push to Docker Hub
           command: |
